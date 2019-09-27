@@ -24,3 +24,4 @@ package.json
 .eslintrc
 .exercism/
 metadata.json
+babel.config.js
