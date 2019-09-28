@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
 
-  input=$1
-
-  # Add your code here
-  [[ -z $input ]] && echo "One for you, one for me." || echo "One for $input, one for me."
+[[ -z $1 ]] && echo "One for you, one for me." || echo "One for $1, one for me."

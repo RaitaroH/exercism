@@ -7,9 +7,11 @@
 // }
 
 export const twoFer = (name) => {
-  if ( name ) {
-    return('One for ' + name + ', one for me.');
-  } else {
-    return('One for you, one for me.');
-  }
+  // Woo, a one liner. NOICE.
+  return( name ? 'One for ' + name + ', one for me.' : 'One for you, one for me.' );
+  // if ( name ) {
+    // return('One for ' + name + ', one for me.');
+  // } else {
+    // return('One for you, one for me.');
+  // }
 }
